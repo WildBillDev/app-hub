@@ -10,12 +10,11 @@ are just guidelines, not rules. Use your best judgment and feel free to propose 
 ## Rules
 
 1. The app must run on Mainnet
-2. Support [Connex](https://connex.vecha.in/#/)
-3. Logo is required
-4. The id must be unique
-5. Short and simple descriptions
-6. Comply with directory & contents rules
-7. One application per submission
+2. Logo is required
+3. The id must be unique
+4. Short and simple descriptions
+5. Comply with directory & contents rules
+6. One application per submission
 
 ## Adding your app
 
@@ -64,7 +63,8 @@ Create a `manifest.json` file includes app details.
         "0x1234567890123456789012345678901234567890",
         "0x0987654321098765432109876543210987654321"
     ],
-    "isVeWorldSupported": false
+    "isVeWorldSupported": false,
+    "veBetterDaoId": "0x821a9ae30590c7c11e0ebc03b27902e8cae0f320ad27b0f5bde9f100eebcb5a7"
 }
 ```
 
@@ -76,6 +76,7 @@ Create a `manifest.json` file includes app details.
 - `isVeWorldSupported` is **required**, set this to true if your dApp supports the VeWorld browser extension, enabling its use within the VeWorld mobile wallet. Your dApp will then be listed in the dApp section of the VeWorld mobile discovery.
 - `repo` is _optional_, and must be a fully-qualified URL.
 - `contracts` is _optional_, should be **_an array_** and **_lower cases_** if provided
+- `veBetterDaoId` is _optional_, it represents the ID of the VeBetterDAO DApp.
 - No fields should be left blank.
 
 ### Categories
@@ -87,6 +88,16 @@ Create a `manifest.json` file includes app details.
 - games
 - marketplaces
 - utilities
+
+### VeBetterDAO ID
+
+The `veBetterDaoId` – or App ID – represents the `keccak356` hash of the name of the app and can be found in the url of the governance app.
+
+For example in :
+https://governance.vebetterdao.org/apps/0xa7333a4a1dcce267ddc8375d4bf0442a63ec8da0afa17162981b8fdd1e0a13bc
+
+The App ID is:
+0xa7333a4a1dcce267ddc8375d4bf0442a63ec8da0afa17162981b8fdd1e0a13bc
 
 ### Import the Logo & Rules
 
