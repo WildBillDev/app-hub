@@ -1,6 +1,7 @@
 {
   "name": "Arbor",
   "href": "https://thearborapp.org/",
+<<<<<<< HEAD
   "desc": "Planting for a better future.",
   "category": "utilities",
   "tags": [
@@ -12,6 +13,11 @@
       "sassafras",
       "sass"
   ],
+=======
+  "desc": "Planting for a better future",
+  "category": "utilities",
+  "tags": [ "The Arbor App", "Arbor", "VeChain", "VeBetter Dao", "Plant2Earn", "Community", "Sassafras", "SASS" ],
+>>>>>>> 7f13efefe75c7b85903dff9139ce9bb5de216cdd
   "isVeWorldSupported": true,
   "veBetterDaoId": "0xa086ca5512f6e7a5f7793cf312731afe4cbef84299e3dd77086301152f8edce5"
 }
